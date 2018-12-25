@@ -1,0 +1,169 @@
+hash: 370672e4bc551d27b86be4cb347c74a939b24fea4896ae07f5723c82f32eae66
+updated: 2018-12-25T20:17:17.173681245+08:00
+imports:
+- name: github.com/beorn7/perks
+  version: 3a771d992973f24aa725d07868b467d1ddfceafb
+  subpackages:
+  - quantile
+- name: github.com/elazarl/go-bindata-assetfs
+  version: 38087fe4dafb822e541b3f7955075cc1c30bd294
+- name: github.com/garyburd/redigo
+  version: a69d19351219b6dd56f274f96d85a7014a2ec34e
+  subpackages:
+  - internal
+  - redis
+- name: github.com/go-sql-driver/mysql
+  version: c45f530f8e7fe40f4687eaa50d0c8c5f1b66f9e0
+- name: github.com/golang/protobuf
+  version: 1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f
+  subpackages:
+  - proto
+- name: github.com/graphql-go/graphql
+  version: 08943645bf265d192b32f2100cdff2428f7ae7c5
+  subpackages:
+  - gqlerrors
+  - language/ast
+  - language/kinds
+  - language/lexer
+  - language/location
+  - language/parser
+  - language/printer
+  - language/source
+  - language/typeInfo
+  - language/visitor
+- name: github.com/json-iterator/go
+  version: d05f387f50c0c406889b62cb5ec51c76a64d89ee
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/microsvs/base
+  version: c3d77eb13a8f9fc56b96e7bafff76bd0a800ed69
+  subpackages:
+  - cmd/cache
+  - cmd/db
+  - cmd/discovery
+  - pkg/cache
+  - pkg/env
+  - pkg/errors
+  - pkg/log
+  - pkg/rpc
+  - pkg/timer
+  - pkg/tracing
+  - pkg/types
+  - pkg/utils
+- name: github.com/microsvs/handler
+  version: 53830093a28167dc24203f59778d662be7c99c01
+- name: github.com/microsvs/libkv
+  version: 727e7ef94ae8123f06da3ba06ecb644ff90d33ab
+  subpackages:
+  - store
+  - store/zookeeper
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+- name: github.com/ncw/directio
+  version: 17018d97cb6f2cd62f84c69903d327e596b7a93e
+- name: github.com/opentracing-contrib/go-stdlib
+  version: 77df8e8e70b403c6b13c0fffaa4867c9044ff4e9
+  subpackages:
+  - nethttp
+- name: github.com/opentracing/opentracing-go
+  version: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+  subpackages:
+  - ext
+  - log
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/prometheus/client_golang
+  version: c5b7fccd204277076155f10851dad72b76a49317
+  subpackages:
+  - prometheus
+- name: github.com/prometheus/client_model
+  version: 5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 67670fe90761d7ff18ec1d640135e53b9198328f
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 1dc9a6cbc91aacc3e8b2d63db4d2e957a5394ac4
+  subpackages:
+  - internal/util
+  - nfs
+  - xfs
+- name: github.com/samuel/go-zookeeper
+  version: c4fab1ac1bec58281ad0667dc3f0907a9476ac47
+  subpackages:
+  - zk
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/segmentio/ksuid
+  version: ffd9a8aaaf8f40792e055371eba06542348e991e
+- name: github.com/uber-go/atomic
+  version: 8dc6146f7569370a472715e178d8ae31172ee6da
+- name: github.com/uber/jaeger-client-go
+  version: 281650436f3c33cb410576efe2bf9cc1f7772804
+  subpackages:
+  - config
+  - internal/baggage
+  - internal/baggage/remote
+  - internal/spanlog
+  - internal/throttler
+  - internal/throttler/remote
+  - log
+  - rpcmetrics
+  - thrift
+  - thrift-gen/agent
+  - thrift-gen/baggage
+  - thrift-gen/jaeger
+  - thrift-gen/sampling
+  - thrift-gen/zipkincore
+  - transport
+  - utils
+- name: github.com/uber/jaeger-lib
+  version: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+  subpackages:
+  - metrics
+  - metrics/prometheus
+- name: github.com/urfave/negroni
+  version: 7183f09c600e83777e78b44b39fcccab3b8c0dad
+- name: github.com/vmihailenco/msgpack
+  version: c4fc0fcdd500af473157759b6d73f935e727ec77
+  subpackages:
+  - codes
+- name: golang.org/x/net
+  version: 927f97764cc334a6575f4b7a1584a147864d5723
+  subpackages:
+  - context
+- name: google.golang.org/appengine
+  version: e9657d882bb81064595ca3b56cbe2546bbabf7b1
+  subpackages:
+  - cloudsql
+  - datastore
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+- name: upper.io/db.v3
+  version: 1edc03ac1472c11fc8b13334a6b844d6dbd0f3dd
+  subpackages:
+  - internal/cache
+  - internal/cache/hashstructure
+  - internal/immutable
+  - internal/sqladapter
+  - internal/sqladapter/compat
+  - internal/sqladapter/exql
+  - lib/reflectx
+  - lib/sqlbuilder
+  - mysql
+testImports: []

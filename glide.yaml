@@ -1,0 +1,28 @@
+package: github.com/microsvs/demo
+import:
+- package: github.com/garyburd/redigo
+  version: ~1.6.0
+  subpackages:
+  - redis
+- package: github.com/graphql-go/graphql
+  version: ~0.7.7
+- package: github.com/microsvs/base
+  subpackages:
+  - cmd/cache
+  - cmd/db
+  - cmd/discovery
+  - pkg/cache
+  - pkg/errors
+  - pkg/log
+  - pkg/rpc
+  - pkg/timer
+  - pkg/types
+  - pkg/utils
+- package: github.com/satori/go.uuid
+  version: ~1.2.0
+- package: github.com/segmentio/ksuid
+  version: ~1.0.2
+- package: upper.io/db.v3
+  version: ~3.5.6
+  subpackages:
+  - lib/sqlbuilder

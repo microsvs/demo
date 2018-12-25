@@ -3,8 +3,8 @@ package utils
 import (
 	"reflect"
 
-	"github.com/1046102779/base/pkg/errors"
-	"github.com/1046102779/base/pkg/log"
+	"github.com/microsvs/base/pkg/errors"
+	"github.com/microsvs/base/pkg/log"
 )
 
 func CheckAndAssignParams(args, dest map[string]interface{}) (err error) {
