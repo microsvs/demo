@@ -97,7 +97,7 @@ type LogStru struct {
 	Interval    int             `json:"interval"`
 	File        string          `json:"file"`
 	LineNo      int             `json:"line"`
-	Cnt         []byte          `json:"cnt"`
+	Cnt         string          `json:"cnt"`
 	ConsoleInfo ConsoleInfo     `json:"consoleinfo"`
 }
 
@@ -126,7 +126,7 @@ func logC(ctx context.Context, level string, service rpc.FGService, tag TraceSer
 	logStru.TraceRPCID = rpc.GetContextFromKey(ctx, rpc.KeyRPCID, "0").(string)
 	logStru.FromIP = utils.GetClientIPAdress(request)
 	fmt.Fprintf(&buildLog, format, v...)
-	logStru.Cnt = buildLog.Bytes()
+	logStru.Cnt = buildLog.String()
 	logStru.ConsoleInfo = ConsoleInfo{
 		Mobile: user.Mobile,
 		Client: strings.Split(logStru.TraceID, ":")[0],
