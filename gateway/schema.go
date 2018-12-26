@@ -35,7 +35,7 @@ var schema graphql.Schema
 var query = graphql.NewObject(
 	graphql.ObjectConfig{
 		Name:        "query",
-		Description: "【灵动】查询接口列表",
+		Description: "【DEMO】查询接口列表",
 		Fields: graphql.Fields{
 			"me": &graphql.Field{
 				Type:        GLMe,

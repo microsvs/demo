@@ -24,7 +24,7 @@ func init() {
 var query = graphql.NewObject(
 	graphql.ObjectConfig{
 		Name:        "Query",
-		Description: "【灵动】接口查询列表",
+		Description: "【DEMO】接口查询列表",
 		Fields: graphql.Fields{
 			"user": &graphql.Field{
 				Type:        types.GLUser,
@@ -65,7 +65,7 @@ var query = graphql.NewObject(
 
 var mutation = graphql.NewObject(graphql.ObjectConfig{
 	Name:        "Mutation",
-	Description: "【灵动】接口修改列表",
+	Description: "【DEMO】接口修改列表",
 	Fields: graphql.Fields{
 		"verify_code": &graphql.Field{
 			Type:        graphql.Boolean, // the return type for this field
