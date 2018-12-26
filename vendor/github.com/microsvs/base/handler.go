@@ -25,7 +25,7 @@ import (
 )
 
 // dns configuration
-var BaseDomain string = "api.b2b.com"
+var BaseDomain string = "api.xhj.com"
 var metricsFactory metrics.Factory = jprom.New().Namespace(
 	metrics.NSOptions{
 		Name: func() string {
