@@ -1,4 +1,4 @@
-demo用于演示这个base业务框架的使用，方便大家对它更加熟悉
+demo用于演示这个[base业务框架](https://github.com/microsvs/base)的使用，方便大家对它更加熟悉
 
 demo由三个微服务构成：gateway、token和user
 
