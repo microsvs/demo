@@ -22,7 +22,7 @@ import (
 )
 
 const (
-	LOG__CHAN_LENGHT          = 10
+	LOG__CHAN_LENGHT          = 20
 	LOG__CHAN_AND_CACHE__RATE = 0.7
 	// 目录和时间维度支持自定义
 	LOG__FILE__DEM = "20060102"  // 日志时间维度, 天
