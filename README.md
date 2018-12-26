@@ -55,6 +55,6 @@ token作为用户唯一身份
 | 服务名 | 服务地址 | 用户名 | 密码 |
 |---|---|---|---|
 | zkui | [zkui](http://39.96.95.220:9090/login) | admin | manager |
-| gateway | [demo-dev](http://39.96.95.220:8081) | - | - |
+| gateway | [demo-dev](http://39.96.95.220:8081?token=e3215ffa-8bd6-4010-aafb-d7817f3103dc) | - | - |
 | token | 192.168.0.79:8084 | - | - |
 | user | 192.168.0.79:8085 | - | -|
