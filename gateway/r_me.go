@@ -26,10 +26,6 @@ var (
 				 mobile
 				 city_ids
 				 user_type
-				 advertisers{
-					 advertiser_id
-					 name
-				 }
 				 status
 			 }
 		 }
@@ -42,10 +38,6 @@ var (
 				 mobile
 				 city_ids
 				 user_type
-				 advertisers{
-					 advertiser_id
-					 name
-				 }
 				 status
 			 }
 		 }
