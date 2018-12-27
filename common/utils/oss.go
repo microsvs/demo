@@ -15,11 +15,11 @@ import (
 
 const (
 	ACCESS_KEY_ID     = "LTAIt6IV8eSjEwOG"
-	ACCESS_KEY_SECRET = "LjIIug1AJfPAErsbeDPi0hKgOkohVM"
+	ACCESS_KEY_SECRET = "LiIIug1AJfPAErsbeDPi0hKgOkohVM"
 	END_POINT         = "oss-cn-shanghai.aliyuncs.com"
-	BUCKET            = "gewuwei"
-	ROLE_ARN          = "acs:ram::1824796786346257:role/role-gewuwei"
-	SESSION_NAME      = "gewuwei"
+	BUCKET            = "xhj"
+	ROLE_ARN          = "acs:ram::1924796786346257:role/role-xhj"
+	SESSION_NAME      = "xhj"
 	DURATION_TIME     = "3600"
 )
 
